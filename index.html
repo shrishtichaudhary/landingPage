@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">ADVENTURE</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Tourse</li>
+      <li><a href="#"></a>Explore</li>
+      <li><a href="#"></a>About</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+    </ul>
+    <img src="./img/menu-btn.png" alt="" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2>Let's Make Your Tour Unforgettable</h2>
+      <div class="line"></div>
+      <h1>OCEAN HOLIDAY</h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </header>
+  <!-- == Events ==-->
+  <section class="events">
+    <div class="title">
+      <h1>Mauritius Sea & Water Activities</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="scuba-diving.jpg" alt="">
+        <h4>Scuba Diving</h4>
+        <p>Scuba diving is mainly done for the attraction of the unattainable undersea world.  It is one area of nature that mankind has not been able to fully control, we simply are not able to breathe underwater.  Hence, scuba diving gives us an opportunity to be in that underwater world, even if it is just for a limited amount of time. Are you daring enough?</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col">
+        <img src="bali-swing-1.jpg" alt="">
+        <h4>Bali Swing</h4>
+        <p>The Official Bali Swing in Ubud has created such a phenomenon that hundreds of them have popped up across Bali. It’s almost impossible to go from place to place without spotting one on the way. The pictures of people swinging in these, looking over the beautiful jungles have become a sensation. Are you daring enough?</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>Contact: Lake Road, Suite 180 Farmington Hills, U.S.A | Phone: +101-1231-1231 | Email:shrishti@gmail.com</p>
+    <p>Copyright @ 2020 Outdoor Adventure</p>
+  </section>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
